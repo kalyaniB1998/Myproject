@@ -27,7 +27,7 @@ function Login() {
       body:dataToSend,
     };
 
-    let JSONdata = await fetch("http://localhost:6767/validateLogin",reqOptions);
+    let JSONdata = await fetch("/validateLogin",reqOptions);
     let JSOData = await JSONdata.json();
     // if(JSOData.status==="failure"){
 

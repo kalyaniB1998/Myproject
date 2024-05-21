@@ -38,9 +38,9 @@ function Home() {
  
        <div className='icon'>
        <img src='./Images/facebook.jpg'
-           onClick={() => handleClick('https://www.facebook.com/brninfotech?mibextid=ZbWKwL')}></img>
+           onClick={() => handleClick('/brninfotech?mibextid=ZbWKwL')}></img>
         <img src='./Images/linkdin.png'
-        onClick={() => handleClick('https://www.linkedin.com/in/brn-infotech-b6606546/')}></img>
+        onClick={() => handleClick('/brn-infotech-b6606546/')}></img>
         <img src='./Images/youtube.png'></img> 
         <img src='./Images/whatsapp.png'></img>
         <h1 style={{display:"flex",marginTop:"5px",fontFamily:"cursive",fontSize:"1.3rem"}}>9966309900</h1>
@@ -66,7 +66,7 @@ function Home() {
              <td>Offline Classroom / Online Practical Training</td>
              <td>New batch starts from 22 April @ 11:00 am onwards
              8 hours Practical Training</td>
-             <td><a href='https://www.google.com/search?client=ms-android-samsung-ss&sca_esv=4d50ecf86976fd48&bih=719&biw=384&hl=en&sxsrf=ADLYWIKP4XOZNUkKS5IX8QVwNNvQirP5dQ%3A1715102160485&q=BRN%20Infotech&ludocid=2683529913168669701&ibp=gwp%3B0%2C7&lsig=AB86z5U0abYuvUIvNcRozwn8MT41&kgs=ff9bf50628d77d93&shndl=-1&shem=lsp&source=sh%2Fx%2Floc%2Fact%2Fm1%2F2'>Click Here for Map</a> BRN Infotech,Hyderabad</td>
+             <td><a href='/search?client=ms-android-samsung-ss&sca_esv=4d50ecf86976fd48&bih=719&biw=384&hl=en&sxsrf=ADLYWIKP4XOZNUkKS5IX8QVwNNvQirP5dQ%3A1715102160485&q=BRN%20Infotech&ludocid=2683529913168669701&ibp=gwp%3B0%2C7&lsig=AB86z5U0abYuvUIvNcRozwn8MT41&kgs=ff9bf50628d77d93&shndl=-1&shem=lsp&source=sh%2Fx%2Floc%2Fact%2Fm1%2F2'>Click Here for Map</a> BRN Infotech,Hyderabad</td>
              </tr>
           </tbody>
           </table>

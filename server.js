@@ -9,6 +9,10 @@ const path = require("path");
 let app = express();
 app.use(cors());
 app.use("/uploads",express.static('uploads'));
+
+app.use(express.static(path.join(__dirname,"./client/build")));
+
+
 const multer =  require ("multer");
 let connectToMDB= async()=>{
 

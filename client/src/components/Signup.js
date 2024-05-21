@@ -48,7 +48,7 @@ function Signup() {
     method:"POST",
    body:dataToSend,
    };
-   let JSONdata = await fetch("http://localhost:6767/Signup",reqOption);
+   let JSONdata = await fetch("/Signup",reqOption);
    let JSOData = await JSONdata.json();
    alert(JSOData.msg);
    console.log(JSOData);
