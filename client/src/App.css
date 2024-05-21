@@ -1,0 +1,358 @@
+.App {
+  text-align: center;
+
+}
+
+.pulse{
+  font-family:sans-serif;
+  color:white;
+ }
+ .b{
+  color:rgb(224,59,43);
+ }
+ .r{
+  color:rgb(162,161,166);
+ }.n{
+
+  color:rgb(224,59,43);
+  font-family: monospace;
+  font-size: 2.6rem;
+ }
+ .pulsebrn{
+  height: 70px;
+  display: flex; 
+  justify-content:flex-start;
+  align-items:initial;
+  margin-left: 20px;
+}
+.pulsediv{
+  background-color:rgb(42,54,66);
+  height: 90px;
+  /* margin-top: 20px; */
+  /* text-align: left; */
+
+}
+.rank{
+  font-size: 1.5rem;
+  color: white;
+  font-family:sans-serif;
+  padding:9px;
+  border-radius: 9px;
+ 
+ }
+ .rank:hover{
+  /* font-size: 1.5rem; */
+   /* padding:4px;  */
+  color:rgb(50, 50, 50);
+  background-color: white;
+   /* border: 2px solid grey; */
+  border-radius: 9px;
+ }
+ .ranknav{
+   border-radius: 10px; 
+  /* margin-top: 10px; */
+ /* padding: 10px; */
+  background-color: rgb(109, 107, 107);
+  display: flex;
+  justify-content: space-evenly;
+}
+.logindiv{
+  /* margin-top: 100px; */
+  width: 400px;
+  height: 360px;
+  display:inline-block;
+ /* margin-left: 300px; */
+  border: 2px solid  rgb(236,238,241);
+  /* padding-top: 60px; */
+  background-color: rgb(236,238,241);
+  /* padding-bottom: 60px; */
+  margin-bottom: 100px;
+  
+}
+.loginInput{
+  /* font-size: 1.1rem; */
+  /* text-align: center; */
+  padding: 15px;
+  width: 300px;
+  background-color: #dbdfde;
+  border:2px solid rgb(236,238,241);
+  font-size: 1rem;
+}
+
+.loginButton{
+  background-color: rgb(69,182,175);
+  color: white;
+  font-size: 1.2rem;
+  border: 1px solid rgb(69,182,175) ;
+  margin-top: 20px;
+  padding: 5px;
+}
+.loginImg{
+  display: block;
+  /* margin-top: 50px; */
+margin-left: 510px;
+width: 500px;
+height: 300px;
+}
+.div{
+  background-color: rgb(54,65,80);
+  width: 100%;
+  
+}
+.loginsignup{
+  background-color:rgb(108,122,141) ;
+  width: 375px;
+  margin-top: 20px;
+  padding: 15px;
+  margin-left: -1px;
+  color: white;
+ 
+}
+.loginh1{
+  color: rgb(69,182,175);
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif 'Arial Narrow', Arial, sans-serif;
+}
+.signupimg{
+    width: 100px;
+    height: 100px;
+    /* box-shadow: 10px 10px 10px ; */
+  
+}
+.signupdiv{
+  background-color: rgb(127, 126, 126);
+ 
+}
+.signForm{
+  width: 500px;
+ margin-left: 500px;
+  background-color: whitesmoke;
+  border: 1px solid gray;
+  padding: 20px;
+}
+.sformDiv{
+  margin-top: 3px;
+  padding: 20px;
+  padding-bottom: 100px;
+  /* background-color:rgb(108,122,141) ; */
+
+}
+.sForm{
+  padding: 10px;
+  
+}
+input{
+  padding: 10px;
+  padding-right: 100px;
+  padding-left: 20px;
+  font-size: 1.2rem;
+}
+
+.Table{
+  border-collapse: collapse;
+  height: 65px;}
+  .two{
+    border-collapse: collapse;
+    background-color: pink;
+    border: 1px solid rgb(125, 123, 123);
+    height: 45px;
+    text-align: center;
+  }
+  .search{
+    margin-left: 900px;
+    background-color: white;
+    display:inline-block;
+    margin-bottom: 20px;
+    
+  }
+  .table,th, td{
+    border: 0.5px solid rgb(135, 133, 133);
+    border-collapse: collapse;
+  }
+  .select{
+    margin-top: 50px;
+
+    background-color: white;
+    display:flex;
+    margin-bottom: -90px;
+    padding:10px;
+
+  
+  }
+  select{
+    border: 2px solid black;
+    width: 200px;
+    height: 30px;
+    font-size: 1rem;
+  }
+  .msgtr{
+    border-collapse: collapse;
+    border: 0.5px solid rgb(125, 123, 123);
+    width: 60px;
+    height: 30px;
+    
+  }
+  .msgtable{
+    border: 0.5px solid rgb(135, 133, 133);
+    border-collapse: collapse;
+    width: 95%;
+    margin: 2%;
+   
+   
+   }
+   .msgth{
+    background-color: rgb(26, 122, 247);
+    text-align: center;
+  
+  }
+  
+  .msgbutton{
+    display: flex;
+    flex-direction:row;
+    justify-content:left;
+    height: 30px;
+    padding-left: 10px;
+    background-color: rgb(26, 122, 247);
+    color: white;
+    border: 0px solid rgb(26, 122, 247);
+   
+  }
+  .msgdiv{
+    margin-left: 3%;
+    margin-top: 50px;
+    background-color: white;
+   }
+   .mtable{
+    border: 0.5px solid  rgb(26, 122, 247);
+    border-collapse: collapse;
+     width: 90%;
+     }
+   .smsgForm{
+    width: 600px;
+      height: 550px;
+      /* background-color:white; */
+      display: inline-block;
+       background-color:rgb(244, 240, 240);
+    
+    }
+    .smsgText{
+      width: 60%;
+      height: 0%;
+      /* background-color:white; */
+      margin-left:20px;
+    }
+    .smsgoption{
+      /* display: inline-block; */
+      display: inline-flex;
+      flex-direction: column;
+      width:auto;
+      height: 70px;
+      overflow-y: scroll;
+      background-color:white;
+    }
+    .smsgLabel{
+     display:inline-flex;
+     justify-content:space-evenly;
+     margin-right: 30px;
+     margin-bottom: 10px;
+     margin-left: -200px;
+    
+     }
+     .smsgLabel:after{
+      content: '*️';
+      color:red; 
+    } 
+    .smsgbutton{
+      margin: 20px;
+    }
+    .smsgh1{
+      background-color: rgb(142,95,162);
+      color: white;
+      font-size: 1.5rem;
+      text-align: justify;
+    }
+    .manageusers{
+      background-color: rgb(18, 151, 203);
+      color: white;
+      width: 1300px;
+      font-size: 1.5rem;
+      margin-right: 150px;
+
+     
+    }
+    .user1{
+      border-collapse: collapse;
+      width: 1200px;
+    }
+    /* .manage{
+      background-color: rgb(5, 148, 204);
+      color: white;
+      border: 0.5px solid  rgb(26, 122, 247);
+    } */
+    .images{
+      width: 150px;
+      height: 150px;
+      margin: 20px;
+    }
+    .edit{
+      width: 70px;
+    }
+    .delete{
+      width: 70px;
+    }
+    .role{
+      width: 100px;
+    }
+    .approve{
+      width: 70px;
+    }
+    .surname{
+      width: 150px;
+    }
+    .firstname{
+      width: 100px;
+      /* color: rgb(18, 152, 205); */
+    }
+    .mUserdiv{
+      margin-left: 30px;
+    }
+    .photo{
+     margin-top: 30px;
+      display:flex;
+   justify-content: left;
+   margin-right: 70px;
+    }
+    .photodiv{
+      display: flex;
+      
+    }
+    .icon{
+      display: flex;
+      width:45px;
+      height: 40px;
+     margin-left: 5%;
+     margin-top: 3%;
+    }
+    .hDiv{
+       padding-left: 5%;
+       width: 100%;
+       margin-top: 5%;
+       
+    }
+    .Hth{
+        font-size: 1.3rem;
+        padding:10px;
+       
+    }
+    .Htd{
+      padding:20px;
+    }
+    .labelDiv{
+      margin-right:5%;
+      margin-bottom:2%;
+    }
+    .genderDiv{
+      margin-right:3.5%;
+      margin-top:3% ;
+      margin-bottom: 5%;
+    }
+    
